@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Formulario - Perdigon</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="../Icono/perdigon.ico">
+    <link rel="stylesheet" type=text/css href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <!--Encabezado-->
+        <a href="../index.html">
+            <img src="../Images/perdigonh1.jpg" alt="perdigon" width="300px" />
+        </a>
+        <h1 class="perdigonLogo">PERDIGON</h1>
+        <h2> Sponsor Oficial de Futbol femenino del Club Atletico Platense</h2>
+        <a href=https://cap.org.ar target="_BLANK">
+            <img src="../Images/Escudo_Platense.jpg" height=55px alt=platense />
+        </a>
+        <nav class="nav">
+            <ul>
+                <li><input class="navLiInput1" type="text" placeholder="Buscar Productos..."><input class="navLiInput2"
+                        type="button" value="Buscar"></li>
+                <li class="navLi"><a href="../index.html">Inicio</a></li>
+                <li class="navLi"><a href="../Sections/nosotros.html">Nosotros</a></li>
+                <li class="navLi"><a href="../Sections/dondecomprar.html">¿Dónde Comprar?</a></li>
+                <li class="navLi"><a href="../Sections/productos.html">Productos</a>
+                    <ul>
+                        <li><a href="asd.html">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#">Item 3</a></li>
+                    </ul>
+                </li>
+                <li class="navLi"><a href="../Sections/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Formulario Empresa-->
+    <main class="mainPerdigonEmpresa">
+        <h3 class="titulo"><u>Perdigon En Tú Local</u></h3>
+        <h4 class="subtitulo">¿Estas interesado en tener los productos de perdigon en tu local? Dejanos tus datos abajo
+            y nos pondremos en contacto contigo</h4>
+        <br>
+        <form action="#" method="POST" enctype="text/plain" class="mainPerdigonEmpresaFormulario">
+            <!--Formulario-->
+            <fieldset class="mainPerdigonEmpresaFormularioFieldset">
+                <legend>Datos Personales:</legend>
+                <label for="nombre">Nombre*</label>
+                <input class="mainPerdigonEmpresaFormularioFieldsetInput" type=text required name="Nombre"
+                    placeholder="Nombre">
+                <label for="apellido">Apellido*</label>
+                <input class="mainPerdigonEmpresaFormularioFieldsetInput" type=text required name="Apellido"
+                    placeholder="Apellido">
+                <label for="telefono">Telefono*</label>
+                <input class="mainPerdigonEmpresaFormularioFieldsetInput" type=text required name="Telefono"
+                    placeholder="Telefono">
+                <label for="email">Email*</label>
+                <input class="mainPerdigonEmpresaFormularioFieldsetInput" type=email required name="email"
+                    placeholder="nombre@ejemplo.com">
+                <label for="Pais">Pais</label>
+                <select class="mainPerdigonEmpresaFormularioFieldsetInput" name="Pais">
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Chile</option>
+                </select>
+                <label for="localidad">Localidad</label>
+                <input class="mainPerdigonEmpresaFormularioFieldsetInput" type=text name="localidad"
+                    placeholder="localidad">
+                <label for="provincia">Provincia</label>
+                <input class="mainPerdigonEmpresaFormularioFieldsetInput" type=text name="provincia"
+                    placeholder="Provincia">
+                <label for="comercio">Comercio</label>
+                <input class="mainPerdigonEmpresaFormularioFieldsetInput" type=text name="comercio"
+                    placeholder="Tipo de comercio">
+                <label for="comentario">Comentarios</label>
+                <textarea class="mainPerdigonEmpresaFormularioFieldsetInput" name="comentarios"
+                    placeholder="Comentarios..."></textarea>
+                <label for=newsletter>¿Desea recibir el Newsletter?</label> <input type="checkbox">
+                <input type="reset" value="Limpiar formulario">
+                <input type=submit value="Enviar">
+
+            </fieldset>
+        </form>
+    </main>
+    <footer class="footer">
+        <!--Pie de Pagina-->
+        <h4 class="footerH4">Copyright - Todos los derechos reservados</h4>
+        <ul class="footerUl">
+            <li class="footerLi"><a href="../index.html">Inicio</a></li>
+            <li class="footerLi"><a href="../Sections/nosotros.html">Nosotros</a></li>
+            <li class="footerLi"><a href="../Sections/dondecomprar.html">¿Donde Comprar?</a></li>
+            <li class="footerLi"><a href="../Sections/productos.html">Productos</a></li>
+            <li class="footerLi"><a href="../Sections/contacto.html">Contacto</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
